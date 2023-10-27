@@ -131,14 +131,14 @@ class Chef {
 
 
 console.log('---------------------Q2-----------------------')
-// const abdul = new Chef('Abdul')
-// abdul.cookDinner('Stuffed Mushrooms', 'Checken', 'Ice Cream')
-// abdul.cookDinner('Jalapeño Poppers', 'beef', 'cake')
-// abdul.cookDinner('Caprese Skewers', 'Ramin', 'cake')
+const abdul = new Chef('Abdul')
+abdul.cookDinner('Stuffed Mushrooms', 'Checken', 'Ice Cream')
+abdul.cookDinner('Jalapeño Poppers', 'beef', 'cake')
+abdul.cookDinner('Caprese Skewers', 'Ramin', 'cake')
 
-Chef.cookDinner('Stuffed Mushrooms', 'Checken', 'Ice Cream')
-Chef.cookDinner('Jalapeño Poppers', 'beef', 'cake')
-Chef.cookDinner('Caprese Skewers', 'Ramin', 'cake')
+// Chef.cookDinner('Stuffed Mushrooms', 'Checken', 'Ice Cream')
+// Chef.cookDinner('Jalapeño Poppers', 'beef', 'cake')
+// Chef.cookDinner('Caprese Skewers', 'Ramin', 'cake')
 
 // console.log(abdul)
 
