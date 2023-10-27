@@ -81,14 +81,22 @@ for(let i=1; i<=5; i++) {
     timmy.eat();
     timmy.exercise();
 }
-timmy.age = 9;
+
+for(let i =0; i < 9; i++){
+    timmy.ageUp()
+}
+
 console.log(timmy)
 
 
 const gus = new Hamster("Timmy", "Gus")
 
-timmy.buyHamster("Gus")
-timmy.age =15;
+timmy.buyHamster(gus)
+
+for(let i =0; i < 15; i++){
+    timmy.ageUp()
+}
+
 for(let i=1; i<=2; i++) {
     timmy.eat();
     timmy.exercise();
@@ -123,10 +131,14 @@ class Chef {
 
 
 console.log('---------------------Q2-----------------------')
-const abdul = new Chef('Abdul')
-abdul.cookDinner('Stuffed Mushrooms', 'Checken', 'Ice Cream')
-abdul.cookDinner('Jalapeño Poppers', 'beef', 'cake')
-abdul.cookDinner('Caprese Skewers', 'Ramin', 'cake')
+// const abdul = new Chef('Abdul')
+// abdul.cookDinner('Stuffed Mushrooms', 'Checken', 'Ice Cream')
+// abdul.cookDinner('Jalapeño Poppers', 'beef', 'cake')
+// abdul.cookDinner('Caprese Skewers', 'Ramin', 'cake')
+
+Chef.cookDinner('Stuffed Mushrooms', 'Checken', 'Ice Cream')
+Chef.cookDinner('Jalapeño Poppers', 'beef', 'cake')
+Chef.cookDinner('Caprese Skewers', 'Ramin', 'cake')
 
 // console.log(abdul)
 
